@@ -83,8 +83,8 @@ body { font-family:'DM Sans',sans-serif; background:var(--beige); min-height:100
 
 .landing-btns {
   display:flex;
-  flex-direction:row;
   gap:14px;
+  justify-content:center;
 }
 
 .btn {
@@ -327,6 +327,7 @@ body { font-family:'DM Sans',sans-serif; background:var(--beige); min-height:100
 <!-- S1: LANDING -->
 <div class="screen active" id="s1">
 <img src="hero.png">
+<div class="landing-btns">
     <button class="btn" onclick="goCamera()">
       <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="4"/><path d="M9 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2h-4l-1.5-2h-5z"/></svg>
       Use Camera
