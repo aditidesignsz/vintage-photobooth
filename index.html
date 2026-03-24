@@ -4,14 +4,8 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Vintage Photobooth</title>
-<link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Playfair+Display:ital,wght@0,400;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
 <style>
 * { margin:0; padding:0; box-sizing:border-box; }
-.landing-title {
-  font-family:'Cedarville Cursive', cursive;
-  font-size:56px;
-  color:var(--brown);
-  margin-bottom:25px;
 }
 
 :root {
@@ -26,8 +20,16 @@
   --strip-lightblue: #c8d8e8;
 }
 
-body { font-family:'Cedarville Cursive', cursive; background:var(--beige); min-height:100vh; overflow:hidden; }
-
+body { 
+  font-family:'Cedarville Cursive', cursive;
+  background:var(--beige);
+  min-height:100vh;
+  overflow:hidden;
+}
+  
+button {
+  font-size:18px;
+}
 .screen { display:none; width:100vw; height:100vh; }
 .screen.active { display:flex; }
 
